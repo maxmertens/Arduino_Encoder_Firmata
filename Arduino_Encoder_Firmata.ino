@@ -43,7 +43,7 @@ void systemResetCallback()
 void initTransport()
 {
   // Uncomment to save a couple of seconds by disabling the startup blink sequence.
-  // Firmata.disableBlinkVersion();
+  Firmata.disableBlinkVersion();
   Firmata.begin(57600);
 }
 
